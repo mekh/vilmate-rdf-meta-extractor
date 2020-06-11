@@ -1,0 +1,45 @@
+# compiled output
+/dist
+/node_modules
+
+# Logs
+/logs
+/log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Lock files
+yarn.lock
+package-lock.json
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+/.c9
+*.launch
+/.settings
+*.sublime-workspace
+
+
+# Compodoc results
+/documentation
+/docs
+
+# Local env
+.env.local
+
+# Project related items
+/data
+test.js

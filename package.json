@@ -1,0 +1,41 @@
+{
+  "name": "rdf-metadata-extractor",
+  "version": "0.0.1",
+  "description": "RDF metadata extractor",
+  "main": "service.js",
+  "scripts": {
+    "migrate": "./node_modules/.bin/sequelize db:migrate --env sequelize",
+    "cluster": "node startCluster.js",
+    "single": "node startSingle.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "rdf",
+    "metadata",
+    "extractor"
+  ],
+  "author": "Alex V.Mekh",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.2",
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.12",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@types/ajv": "^1.0.0",
+    "@types/cheerio": "^0.22.18",
+    "@types/sequelize": "^4.28.9",
+    "babel-plugin-syntax-async-generators": "^6.13.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "jest": "^24.9.0",
+    "jest-each": "^26.0.1"
+  }
+}
