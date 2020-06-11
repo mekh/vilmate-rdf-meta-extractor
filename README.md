@@ -45,6 +45,19 @@ Then you have a choice of how to run the service:
 - to run in cluster mode, execute `npm run cluster`
 - to run in single process mode, execute `npm run single`
 
+## Tests
+To run tests:
+```bash
+$ npm run test
+```
+
+To run tests with coverage:
+```bash
+$ npm run test:coverage
+```
+
+Once `test:coverage` is done - check the `coverage` directory;
+
 ## Configuration
 ### Files and environment variables
 The default configuration is stored in `./config/config.js`.
